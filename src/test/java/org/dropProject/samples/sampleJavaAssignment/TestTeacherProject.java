@@ -28,5 +28,12 @@ public class TestTeacherProject {
         assertEquals(3, Main.findMax(new int[]{-7, -5, 3, -1}));
         assertEquals(5, Main.findMax(new int[]{-7, 5, -3, -99}));
     }
-
-}
+    
+     @Test
+    public void testSum3Numbers() {
+        assertEquals(0, Main.Sum3Numbers(0,0,0);
+        assertEquals(1, Main.Sum3Numbers(0,1,0);
+        assertEquals(6, Main.Sum3Numbers(1,2,3);
+        assertEquals(0, Main.Sum3Numbers(-1,0,1);
+    }
+    }
